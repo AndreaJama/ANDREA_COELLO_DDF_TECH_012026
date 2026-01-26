@@ -55,16 +55,14 @@ Verifique o Status da extração do arquivo do seu dispositivo:
 
 <img src="final_status.png" alt="final_status" width="600"/>
 
-### Observação sobre Metadados
-
-No caso de arquivos CSV, a Dadosfera adiciona automaticamente a coluna `_processing_timestamp`, que registra a data e hora em que o dado foi processado pela plataforma. Essa informação é útil para rastreabilidade e análises temporais, especialmente em cenários de sobrescrita ou coletas incrementais.
-
 Após a conclusão da importação, o dataset ficou disponível para visualização e consulta no **Catálogo de Dados** da Dadosfera.
 
+### Microtransformação (Bônus)
 
+A Dadosfera adota o paradigma ELT, permitindo a aplicação de microtransformações no momento da ingestão de dados provenientes de fontes transacionais SQL.
 
-## Microtransformação 
+No contexto deste projeto, a microtransformação de criptografia (hash) seria aplicada sobre a coluna `VendorID`, com o objetivo de anonimizar identificadores sensíveis mantendo a consistência analítica dos dados.
 
-Após a ingestão, foi aplicada uma microtransformação para padronização dos campos e criação de atributos derivados, como o tempo de entrega em minutos, facilitando análises posteriores.
+Devido ao uso de importação manual de arquivos CSV (coleta única), a aplicação prática da microtransformação não foi executada na interface, sendo o conceito, a escolha da coluna e o impacto documentados conforme as boas práticas da plataforma.
 
 
