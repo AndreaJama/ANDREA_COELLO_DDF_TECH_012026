@@ -21,8 +21,9 @@ Foi utilizada a importação manual de arquivos CSV, uma vez que se trata de um 
 ### Importação Manual de Arquivos
 
 Nesta etapa, os dados foram carregados na plataforma Dadosfera por meio da funcionalidade **Importar arquivos**, recomendada para bases de dados estáticas ou que não necessitam de atualização recorrente.
-![importar](importar.png)
-![novo_arquivo](novo_arquivo.png)
+<img src="importar.png" alt="importar" width="400"/>
+
+<img src="novo_arquivo.png" alt="novo_arquivo" width="400"/>
 
 A origem dos dados é o dispositivo local, caracterizando uma coleta única, sem agendamento automático.
 
