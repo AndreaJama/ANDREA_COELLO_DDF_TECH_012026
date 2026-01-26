@@ -1,3 +1,6 @@
+# pip install pandas
+# pip install pyarrow
+
 import pandas as pd
 
 url = "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet"
