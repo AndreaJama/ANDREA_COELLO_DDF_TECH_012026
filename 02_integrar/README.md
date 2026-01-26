@@ -39,7 +39,8 @@ O arquivo importado segue as especificações suportadas pela plataforma, confor
 | Separador               | `,` |
 | Cabeçalho               | Sim |
 | Tamanho do arquivo      | Inferior a 250 MB |
-![configuracoes](configuracoes.png)
+
+<img src="configuracoes.png" alt="configuracoes" width="600"/>
 
 Durante o processo de importação, foi definido um nome e uma descrição para o dataset, permitindo melhor contextualização e governança dos dados no catálogo da plataforma.
 ![informacoes](informacoes.png)
