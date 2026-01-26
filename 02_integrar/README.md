@@ -46,24 +46,13 @@ Durante o processo de importação, foi definido um nome e uma descrição para 
 
 <img src="informacoes.png" alt="informacoes" width="800"/>
 
-<img src="arquivo_importado.png" alt="arquivo_importado" width="800"/>
+<img src="arquivo_importado.png" alt="arquivo_importado" width="700"/>
 
 ### Observação sobre Metadados
 
 No caso de arquivos CSV, a Dadosfera adiciona automaticamente a coluna `_processing_timestamp`, que registra a data e hora em que o dado foi processado pela plataforma. Essa informação é útil para rastreabilidade e análises temporais, especialmente em cenários de sobrescrita ou coletas incrementais.
 
 Após a conclusão da importação, o dataset ficou disponível para visualização e consulta no **Catálogo de Dados** da Dadosfera.
-
-
-
-## Evidências da Importação
-<p align="center">
-  <img src="prints/upload_arquivo.png" width="600"/>
-</p>
-
-<p align="center">
-  <img src="prints/status_importacao.png" width="600"/>
-</p>
 
 
 
