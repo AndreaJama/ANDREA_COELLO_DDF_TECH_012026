@@ -27,7 +27,7 @@ https://www.mermaid.ai/d/670b65ce-f0aa-427a-a215-3355169d0630
 | Baixa adoção do usuário | Médio | Baixo | Dashboards simples e iterativos |
 | Atraso na integração | Médio | Baixo | Ingestão incremental |
 
-## Estimativa de Custos (Alto Nível)
+## Estimativa de Custos
 
 | Categoria | Tipo de Custo |
 |---------|---------------|
