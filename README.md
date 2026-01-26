@@ -37,4 +37,4 @@ Cada diretório contém:
 As instruções para execução local e deploy via Streamlit estão disponíveis em `08_data_apps/README.md`.
 
 ## Fluxograma do projeto
-- [Fluxogrrama do projeto](https://www.mermaid.ai/d/670b65ce-f0aa-427a-a215-3355169d0630)
+- [Fluxograma do projeto](https://www.mermaid.ai/d/670b65ce-f0aa-427a-a215-3355169d0630)
