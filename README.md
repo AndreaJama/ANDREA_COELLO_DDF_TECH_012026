@@ -37,15 +37,4 @@ Cada diretório contém:
 As instruções para execução local e deploy via Streamlit estão disponíveis em `08_data_apps/README.md`.
 
 ## Fluxograma do projeto
-flowchart TD
-    A[Kickoff com Cliente] --> B[Levantamento de Requisitos]
-    B --> C[Arquitetura da Plataforma]
-    C --> D[Ingestão de Dados]
-    D --> E[Processamento e Modelagem]
-    E --> F[Exploração e Catálogo]
-    F --> G[Dashboards e Análises]
-    G --> H[ML / Modelos Preditivos]
-    H --> I[IA Generativa]
-    I --> J[Data Apps - Streamlit]
-    J --> K[Validação com Stakeholders]
-    K --> L[Encerramento do Projeto]
+- [Fluxogrrama do projeto](https://www.mermaid.ai/d/670b65ce-f0aa-427a-a215-3355169d0630)
