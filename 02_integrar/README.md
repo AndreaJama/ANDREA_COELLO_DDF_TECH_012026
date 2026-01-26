@@ -40,12 +40,13 @@ O arquivo importado segue as especificações suportadas pela plataforma, confor
 | Cabeçalho               | Sim |
 | Tamanho do arquivo      | Inferior a 250 MB |
 
-<img src="configuracoes.png" alt="configuracoes" width="600"/>
+<img src="configuracoes.png" alt="configuracoes" width="800"/>
 
 Durante o processo de importação, foi definido um nome e uma descrição para o dataset, permitindo melhor contextualização e governança dos dados no catálogo da plataforma.
-![informacoes](informacoes.png)
 
-![arquivo_importado](arquivo_importado.png)
+<img src="informacoes.png" alt="informacoes" width="800"/>
+
+<img src="arquivo_importado.png" alt="arquivo_importado" width="800"/>
 
 ### Observação sobre Metadados
 
