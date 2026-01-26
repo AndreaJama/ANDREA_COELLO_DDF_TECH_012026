@@ -53,7 +53,7 @@ Verifique o Status da extração do arquivo do seu dispositivo:
 
 <img src="status1.png" alt="status1" width="400"/>
 
-<img src="final_status.png" alt="final_status" width="400"/>
+<img src="final_status.png" alt="final_status" width="600"/>
 
 ### Observação sobre Metadados
 
