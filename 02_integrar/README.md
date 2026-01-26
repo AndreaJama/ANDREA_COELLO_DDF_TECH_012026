@@ -5,12 +5,19 @@ Nesta etapa, foi realizado o carregamento da base de dados proposta para a plata
 ## Fonte de Dados
 Base pública da NYC Taxi & Limousine Commission (TLC), contendo milhões de registros de viagens, reinterpretadas neste projeto como entregas logísticas no contexto de e-commerce.
 
+<p align="center">
+  <img src="prints/dataset_catalogo.png" width="600"/>
+</p>
 
-### Preparação do Arquivo
+## Preparação do Arquivo para Ingestão
 
-Os dados utilizados são provenientes da base pública da NYC Taxi & Limousine Commission, disponibilizados no formato Parquet. Para fins de ingestão na Dadosfera, foi selecionado um arquivo mensal (janeiro/2023 – táxi amarelo), garantindo volume superior a 100.000 registros.
+Antes da importação dos dados na Dadosfera, foi realizada uma validação básica da base de dados original em formato Parquet, incluindo verificação de volume e estrutura.
 
-Antes da importação, foi realizada uma validação básica de esquema e volume, seguida da conversão do arquivo para o formato CSV (UTF-8), visando facilitar o carregamento manual na plataforma.
+Para facilitar a ingestão manual na plataforma, foi gerado um arquivo CSV a partir de uma amostra de 200.000 registros, mantendo o dado bruto sem transformações analíticas.
+
+O script utilizado para essa preparação encontra-se em:
+- `scripts/prepare_nyc_taxi_data.py`
+
 
 ## Método de Coleta
 Foi utilizada a importação manual de arquivos CSV, uma vez que se trata de um dataset estático para fins de análise e desenvolvimento do case.
@@ -27,9 +34,7 @@ O dataset carregado possui volume superior a 100.000 registros, atendendo plenam
   <img src="prints/status_importacao.png" width="600"/>
 </p>
 
-<p align="center">
-  <img src="prints/dataset_catalogo.png" width="600"/>
-</p>
+
 
 ## Microtransformação 
 
