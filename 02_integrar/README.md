@@ -5,10 +5,7 @@ Nesta etapa, foi realizado o carregamento da base de dados proposta para a plata
 ## Fonte de Dados
 Base pública da NYC Taxi & Limousine Commission (TLC), contendo milhões de registros de viagens, reinterpretadas neste projeto como entregas logísticas no contexto de e-commerce.
 
-<p align="center">
-  <img src="prints/dataset_catalogo.png" width="600"/>
-</p>
-
+<img src="prints/dataset_catalogo.png" alt="dataset_catalogo" width="400"/>
 ## Preparação do Arquivo para Ingestão
 
 Antes da importação dos dados na Dadosfera, foi realizada uma validação básica da base de dados original em formato Parquet, incluindo verificação de volume e estrutura.
