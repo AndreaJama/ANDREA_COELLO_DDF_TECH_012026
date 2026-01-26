@@ -1,4 +1,4 @@
-# pip install pandas
+# pip install pandas '''para leitura de Parquet em ambientes analíticos e cloud'''
 # pip install pyarrow
 
 import pandas as pd
