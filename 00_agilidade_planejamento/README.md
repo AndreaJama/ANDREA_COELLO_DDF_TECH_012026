@@ -10,7 +10,8 @@ O fluxograma abaixo representa todas as etapas do projeto, suas interdependênci
 https://www.mermaid.ai/d/670b65ce-f0aa-427a-a215-3355169d0630
 
 ## Evidência Visual
-![Fluxograma do Projeto](Fluxograma.png)
+<img src="Fluxograma.png" alt="Fluxograma do Projeto" width="600"/>
+
 
 ## Pontos Críticos e Dependências
 - Qualidade dos dados na etapa de ingestão impacta todo o projeto
