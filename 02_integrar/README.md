@@ -24,7 +24,7 @@ Nesta etapa, os dados foram carregados na plataforma Dadosfera por meio da funci
 
 <img src="importar.png" alt="importar" width="400"/>
 
-<img src="novo_arquivo.png" alt="novo_arquivo" width="500"/>
+<img src="novo_arquivo.png" alt="novo_arquivo" width="600"/>
 
 A origem dos dados é o dispositivo local, caracterizando uma coleta única, sem agendamento automático.
 
