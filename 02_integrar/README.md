@@ -21,6 +21,8 @@ Foi utilizada a importação manual de arquivos CSV, uma vez que se trata de um 
 ### Importação Manual de Arquivos
 
 Nesta etapa, os dados foram carregados na plataforma Dadosfera por meio da funcionalidade **Importar arquivos**, recomendada para bases de dados estáticas ou que não necessitam de atualização recorrente.
+![importar](importar.png)
+![novo_arquivo](novo_arquivo.png)
 
 A origem dos dados é o dispositivo local, caracterizando uma coleta única, sem agendamento automático.
 
@@ -35,8 +37,12 @@ O arquivo importado segue as especificações suportadas pela plataforma, confor
 | Separador               | `,` |
 | Cabeçalho               | Sim |
 | Tamanho do arquivo      | Inferior a 250 MB |
+![configuracoes](configuracoes.png)
 
 Durante o processo de importação, foi definido um nome e uma descrição para o dataset, permitindo melhor contextualização e governança dos dados no catálogo da plataforma.
+![informacoes](informacoes.png)
+
+![arquivo_importado](arquivo_importado.png)
 
 ### Observação sobre Metadados
 
