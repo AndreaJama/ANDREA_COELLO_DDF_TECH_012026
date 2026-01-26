@@ -46,7 +46,7 @@ Durante o processo de importação, foi definido um nome e uma descrição para 
 
 <img src="informacoes.png" alt="informacoes" width="800"/>
 
-<img src="arquivo_importado.png" alt="arquivo_importado" width="700"/>
+<img src="arquivo_carregado.png" alt="arquivo_carregado" width="800"/>
 
 ### Observação sobre Metadados
 
