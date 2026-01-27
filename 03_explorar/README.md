@@ -40,6 +40,8 @@ Foram documentadas as colunas mais relevantes do dataset, incluindo campos tempo
 | **congestion_surcharge**  | Taxa adicional aplicada a viagens realizadas em áreas sujeitas a políticas de congestionamento urbano.                              |
 | **airport_fee**           | Taxa adicional aplicada a viagens com origem ou destino em aeroportos.                                                              |
 
+Obs: Os campos financeiros estão expressos em dólares americanos (USD), conforme padrão da NYC Taxi & Limousine Commission.
+
 Essa etapa prepara o dataset para análises descritivas, visualizações e modelagens que serão realizadas nas fases seguintes do projeto.
 
 ## Bônus – Catalogação via API
