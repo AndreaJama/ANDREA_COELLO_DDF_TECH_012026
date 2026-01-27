@@ -1,3 +1,12 @@
+# Etapa 02 – Integração dos Dados
+
+Nesta etapa foi realizada a ingestão dos dados em um banco de dados
+PostgreSQL em cloud, simulando uma base transacional real que servirá
+como fonte para ingestão na plataforma Dadosfera.
+
+O objetivo foi preparar os dados seguindo boas práticas de ELT,
+com separação entre camada de staging e camada refinada.
+
 # PostgreSQL em Cloud – Supabase
 
 Para atender ao bônus do case, foi utilizado o Supabase como serviço
