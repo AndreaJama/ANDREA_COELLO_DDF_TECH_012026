@@ -15,7 +15,6 @@ A seguinte tabela relaciona as zonas conceituais do Data Lake com as entregas pr
 | **Landing / Raw** | Dados brutos, sem transformações | Arquivo CSV importado manualmente na Dadosfera | Item 2 – Integração (`02_integrar/`) |
 | **Standardized** | Padronização mínima de schema e metadados | Dataset catalogado com descrições e tags | Item 3 – Explorar (`03_explorar/`) |
 | **Curated** | Dados prontos para análise e consumo | Dataset explorado e validado para análises | Item 3 – Explorar (`03_explorar/`) |
-| **Analytics Sandbox** | Ambiente de exploração analítica | Queries SQL, preview e estatísticas iniciais | Item 3 – Explorar (`03_explorar/`) |
 
 ## Catalogação do Dataset
 
