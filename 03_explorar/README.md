@@ -18,19 +18,27 @@ O dataset foi devidamente catalogado com nome, descrição e tags, facilitando s
 
 Foram documentadas as colunas mais relevantes do dataset, incluindo campos temporais, geográficos e financeiros, garantindo clareza sobre a granularidade dos dados e seus possíveis usos analíticos.
 
-| Coluna | Tipo | Descrição |
-|------|------|-----------|
-| VendorID | Integer | Identificador do provedor do serviço |
-| tpep_pickup_datetime | Timestamp | Data e hora de início da viagem |
-| tpep_dropoff_datetime | Timestamp | Data e hora de término da viagem |
-| passenger_count | Integer | Número de passageiros |
-| trip_distance | Float | Distância percorrida (milhas) |
-| PULocationID | Integer | Zona de origem |
-| DOLocationID | Integer | Zona de destino |
-| payment_type | Integer | Tipo de pagamento |
-| fare_amount | Float | Valor base da tarifa |
-| tip_amount | Float | Valor da gorjeta |
-| total_amount | Float | Valor total da viagem |
+| Coluna                    | Descrição                                                                                                                           |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **VendorID**              | Identificador do provedor de tecnologia responsável pelo registro da viagem.                                                        |
+| **tpep_pickup_datetime**  | Data e hora em que a viagem foi iniciada (momento de embarque).                                                                     |
+| **tpep_dropoff_datetime** | Data e hora em que a viagem foi finalizada (momento de desembarque).                                                                |
+| **passenger_count**       | Número de passageiros informados pelo motorista para a viagem.                                                                      |
+| **trip_distance**         | Distância percorrida durante a viagem, medida em milhas.                                                                            |
+| **RatecodeID**            | Código que identifica o tipo de tarifa aplicada à viagem, como tarifa padrão, tarifa aeroportuária ou tarifas especiais.            |
+| **store_and_fwd_flag**    | Indicador que informa se os dados da viagem foram armazenados localmente no veículo antes de serem transmitidos ao sistema central. |
+| **PULocationID**          | Identificador da zona geográfica onde ocorreu o embarque da viagem.                                                                 |
+| **DOLocationID**          | Identificador da zona geográfica onde ocorreu o desembarque da viagem.                                                              |
+| **payment_type**          | Código que identifica a forma de pagamento utilizada pelo passageiro na viagem.                                                     |
+| **fare_amount**           | Valor base da tarifa da viagem, sem a inclusão de taxas adicionais.                                                                 |
+| **extra**                 | Encargos adicionais aplicados à tarifa base, como taxas noturnas ou de horário de pico.                                             |
+| **mta_tax**               | Taxa fixa cobrada pela Metropolitan Transportation Authority (MTA).                                                                 |
+| **tip_amount**            | Valor da gorjeta paga pelo passageiro ao motorista.                                                                                 |
+| **tolls_amount**          | Valor total de pedágios pagos durante a viagem.                                                                                     |
+| **improvement_surcharge** | Taxa fixa destinada a melhorias e manutenção dos serviços de transporte.                                                            |
+| **total_amount**          | Valor total pago pelo passageiro, incluindo tarifa base, taxas adicionais, pedágios e gorjeta.                                      |
+| **congestion_surcharge**  | Taxa adicional aplicada a viagens realizadas em áreas sujeitas a políticas de congestionamento urbano.                              |
+| **airport_fee**           | Taxa adicional aplicada a viagens com origem ou destino em aeroportos.                                                              |
 
 Essa etapa prepara o dataset para análises descritivas, visualizações e modelagens que serão realizadas nas fases seguintes do projeto.
 
