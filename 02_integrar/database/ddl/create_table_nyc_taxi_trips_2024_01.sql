@@ -1,3 +1,5 @@
+--Tabela Staging
+
 CREATE TABLE public.nyc_taxi_trips_2024_01_stg (
     vendorid TEXT,
     tpep_pickup_datetime TEXT,
