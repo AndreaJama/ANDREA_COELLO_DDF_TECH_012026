@@ -10,9 +10,27 @@ Os dados foram inicialmente carregados em sua forma bruta (camada Landing/Raw) p
 
 O dataset foi devidamente catalogado com nome, descrição e tags, facilitando sua descoberta e reutilização. Também foram adicionadas descrições para os principais campos, compondo um Dicionário de Dados que permite melhor entendimento do significado e uso das informações.
 
+![tags](tags.png)
+
+![dataset_tabelas](dataset_tabelas.png)
+
 ## Dicionário de Dados
 
 Foram documentadas as colunas mais relevantes do dataset, incluindo campos temporais, geográficos e financeiros, garantindo clareza sobre a granularidade dos dados e seus possíveis usos analíticos.
+
+| Coluna | Tipo | Descrição |
+|------|------|-----------|
+| VendorID | Integer | Identificador do provedor do serviço |
+| tpep_pickup_datetime | Timestamp | Data e hora de início da viagem |
+| tpep_dropoff_datetime | Timestamp | Data e hora de término da viagem |
+| passenger_count | Integer | Número de passageiros |
+| trip_distance | Float | Distância percorrida (milhas) |
+| PULocationID | Integer | Zona de origem |
+| DOLocationID | Integer | Zona de destino |
+| payment_type | Integer | Tipo de pagamento |
+| fare_amount | Float | Valor base da tarifa |
+| tip_amount | Float | Valor da gorjeta |
+| total_amount | Float | Valor total da viagem |
 
 Essa etapa prepara o dataset para análises descritivas, visualizações e modelagens que serão realizadas nas fases seguintes do projeto.
 
