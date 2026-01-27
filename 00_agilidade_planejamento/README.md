@@ -9,7 +9,7 @@ O fluxograma abaixo representa todas as etapas do projeto, suas interdependênci
 🔗 Link para o fluxograma (Mermaid):  
 https://www.mermaid.ai/d/670b65ce-f0aa-427a-a215-3355169d0630
 
-## Evidência Visual
+## Fluxograma
 <img src="Fluxograma.png" alt="Fluxograma do Projeto" width="400"/>
 
 ## Pontos Críticos e Dependências
