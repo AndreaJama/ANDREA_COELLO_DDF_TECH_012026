@@ -10,9 +10,9 @@ Os dados foram inicialmente carregados em sua forma bruta (camada Landing/Raw) p
 
 O dataset foi devidamente catalogado com nome, descrição e tags, facilitando sua descoberta e reutilização. Também foram adicionadas descrições para os principais campos, compondo um Dicionário de Dados que permite melhor entendimento do significado e uso das informações.
 
-![tags](tags.png)
+<img src="tags.png" alt="tags" width="400"/>
 
-![dataset_tabelas](dataset_tabelas.png)
+<img src="dataset_tabelas.png" alt="dataset_tabelas" width="400"/>
 
 ## Dicionário de Dados
 
