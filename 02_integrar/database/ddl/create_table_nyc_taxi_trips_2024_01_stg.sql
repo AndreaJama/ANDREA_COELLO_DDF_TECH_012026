@@ -1,3 +1,5 @@
+--Tabela final
+
 CREATE TABLE public.nyc_taxi_trips_2024_01 (
     vendorid INTEGER,
     tpep_pickup_datetime TIMESTAMP,
