@@ -18,3 +18,5 @@ Dataset transacional contendo registros de viagens de táxi da NYC Taxi & Limous
 | fare_amount | Float | Valor base da tarifa |
 | tip_amount | Float | Valor da gorjeta |
 | total_amount | Float | Valor total da viagem |
+
+# Tags
