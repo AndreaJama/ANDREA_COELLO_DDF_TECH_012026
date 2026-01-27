@@ -6,6 +6,8 @@ Nesta etapa, o dataset foi explorado e catalogado na plataforma Dadosfera, segui
 
 Os dados foram inicialmente carregados em sua forma bruta (camada Landing/Raw) por meio da importação manual de arquivos. Após a ingestão, o dataset foi padronizado e disponibilizado no Catálogo de Dados (camada Standardized), ficando apto para exploração analítica e consumo por ferramentas de análise (camada Curated).
 
+<img src="zonas.png" alt="zonas" width="600"/>
+
 ## Catalogação do Dataset
 
 O dataset foi devidamente catalogado com nome, descrição e tags, facilitando sua descoberta e reutilização. Também foram adicionadas descrições para os principais campos, compondo um Dicionário de Dados que permite melhor entendimento do significado e uso das informações.
