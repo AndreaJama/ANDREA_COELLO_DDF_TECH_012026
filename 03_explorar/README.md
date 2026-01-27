@@ -1,8 +1,20 @@
 # Item 3 – Exploração e Catalogação dos Dados
 
-Nesta etapa, o dataset foi catalogado na plataforma Dadosfera, seguindo boas práticas de organização de um Data Lake e governança de dados.
+Nesta etapa, o dataset foi explorado e catalogado na plataforma Dadosfera, seguindo boas práticas de organização de um Data Lake e governança de dados.
 
-Foram adicionadas descrições, tags e um dicionário de dados para facilitar o entendimento e reutilização do ativo. A exploração inicial dos dados foi realizada por meio de visualização e consultas exploratórias, permitindo validações iniciais de volume, estrutura e métricas básicas.
+## Organização do Data Lake
+
+Os dados foram inicialmente carregados em sua forma bruta (camada Landing/Raw) por meio da importação manual de arquivos. Após a ingestão, o dataset foi padronizado e disponibilizado no Catálogo de Dados (camada Standardized), ficando apto para exploração analítica e consumo por ferramentas de análise (camada Curated).
+
+## Catalogação do Dataset
+
+O dataset foi devidamente catalogado com nome, descrição e tags, facilitando sua descoberta e reutilização. Também foram adicionadas descrições para os principais campos, compondo um Dicionário de Dados que permite melhor entendimento do significado e uso das informações.
+
+## Dicionário de Dados
+
+Foram documentadas as colunas mais relevantes do dataset, incluindo campos temporais, geográficos e financeiros, garantindo clareza sobre a granularidade dos dados e seus possíveis usos analíticos.
+
+Essa etapa prepara o dataset para análises descritivas, visualizações e modelagens que serão realizadas nas fases seguintes do projeto.
 
 ## Bônus – Catalogação via API
 
