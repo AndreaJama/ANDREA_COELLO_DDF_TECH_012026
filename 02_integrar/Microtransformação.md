@@ -41,6 +41,8 @@ Na criação da pipeline:
 - Foi selecionado o objeto **`nyc_taxi_trips_2024_01`**
 - Modo de sincronização configurado como **Full Load**
 
+![info_pipeline_postgresql](info_pipeline_postgresql.png)
+
 **Justificativa**:
 - Dataset histórico
 - Base estática para análise exploratória e analítica
