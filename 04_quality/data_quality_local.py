@@ -17,4 +17,20 @@ import great_expectations as gx
 # 2. Leitura do CSV
 # =========================
 
-csv_path = "data/nyc_taxi_trips_2024_01.csv"
+df = pd.read_csv("nyc_taxi_trips_2024_01.csv")
+
+print("CSV carregado com sucesso.")
+print(f"Total de registros: {len(df)}")
+print("\nPrimeiras linhas:")
+print(df.head())
+
+# =========================
+# 3. Inicialização do Great Expectations
+# =========================
+
+context = gx.get_context()
+
+validator = context.sources.pandas_default.read_dataframe(df)
+
+print("\nGreat Expectations inicializado com sucesso.")
+print("Validator criado e pronto para receber regras de qualidade.")
