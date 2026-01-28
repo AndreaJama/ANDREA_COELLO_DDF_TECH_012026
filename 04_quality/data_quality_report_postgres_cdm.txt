@@ -1,0 +1,21 @@
+RELATÓRIO DE QUALIDADE DE DADOS - POSTGRESQL (CDM)
+
+Status geral: FALHAS ENCONTRADAS
+Total de regras avaliadas: 22
+Regras com falha: 14
+
+Detalhamento das falhas:
+- Expectation: expect_column_values_to_be_between | Coluna: trip_duration_seconds | Registros inesperados: 1
+- Expectation: expect_column_values_to_not_be_null | Coluna: passenger_count | Registros inesperados: 9511
+- Expectation: expect_column_values_to_be_between | Coluna: passenger_count | Registros inesperados: 2154
+- Expectation: expect_column_values_to_be_between | Coluna: total_amount | Registros inesperados: 2498
+- Expectation: expect_column_values_to_be_between | Coluna: fare_amount | Registros inesperados: 2624
+- Expectation: expect_column_values_to_be_between | Coluna: extra_amount | Registros inesperados: 1318
+- Expectation: expect_column_values_to_be_between | Coluna: tax_amount | Registros inesperados: 2432
+- Expectation: expect_column_values_to_be_between | Coluna: tip_amount | Registros inesperados: 7
+- Expectation: expect_column_values_to_be_between | Coluna: tolls_amount | Registros inesperados: 126
+- Expectation: expect_column_values_to_be_between | Coluna: improvement_surcharge | Registros inesperados: 2498
+- Expectation: expect_column_values_to_be_between | Coluna: congestion_surcharge | Registros inesperados: 2043
+- Expectation: expect_column_values_to_be_between | Coluna: airport_fee | Registros inesperados: 341
+- Expectation: expect_column_values_to_be_in_set | Coluna: payment_type | Registros inesperados: 9511
+- Expectation: expect_column_values_to_be_between | Coluna: rate_code | Registros inesperados: 1860
