@@ -22,6 +22,8 @@ DB_HOST = "aws-1-us-east-2.pooler.supabase.com"
 DB_PORT = 6543
 DB_NAME = "postgres"
 
+# engine = create_engine(f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}")
+
 engine = create_engine(
     "postgresql://postgres.ychjbgtcwocpioaicuwb:1andrisAJ26*@aws-1-us-east-2.pooler.supabase.com:6543/postgres"
 )
