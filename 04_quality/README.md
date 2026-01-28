@@ -25,13 +25,18 @@ Ele ajuda equipes a garantir que os dados usados em análises, pipelines ou mode
 
 ### Usando pip
 ```bash
+
+# Instalação inicial
 pip install great-expectations
 
-pip install great_expectations 
+# Atualização para a versão mais recente
 pip install --upgrade great-expectations
-pip install "sqlalchemy<2.0"  
+
+# Compatibilidade com SQLAlchemy
+pip install "sqlalchemy<2.0"
+
+# Inicialização do Great Expectations
 great_expectations init
 
-•	É um comando de inicialização do Great Expectations.
-•	Ele cria uma estrutura de pastas e arquivos chamada great_expectations/ no seu projeto.
+• Cria uma estrutura de pastas e arquivos chamada great_expectations/ no seu projeto.
 •	Essa estrutura serve para você configurar, salvar expectativas, conectar fontes de dados e rodar validações.
