@@ -35,8 +35,5 @@ pip install --upgrade great-expectations
 # Compatibilidade com SQLAlchemy
 pip install "sqlalchemy<2.0"
 
-# Inicialização do Great Expectations
+# Inicialização do Great Expectations. Cria uma estrutura de pastas e arquivos chamada great_expectations/ no seu projeto.
 great_expectations init
-
-• Cria uma estrutura de pastas e arquivos chamada great_expectations/ no seu projeto.
-•	Essa estrutura serve para você configurar, salvar expectativas, conectar fontes de dados e rodar validações.
