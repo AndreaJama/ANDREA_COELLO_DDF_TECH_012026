@@ -1,0 +1,13 @@
+RELATÓRIO DE QUALIDADE DE DADOS - PostgreSQL
+
+Status geral: FALHAS ENCONTRADAS
+Total de regras avaliadas: 15
+Regras com falha: 6
+
+Detalhamento das falhas:
+- Expectation: expect_column_values_to_not_be_null | Coluna: passenger_count | Registros inesperados: 9511
+- Expectation: expect_column_values_to_be_between | Coluna: passenger_count | Registros inesperados: 2154
+- Expectation: expect_column_values_to_be_between | Coluna: fare_amount | Registros inesperados: 2624
+- Expectation: expect_column_values_to_be_between | Coluna: total_amount | Registros inesperados: 2498
+- Expectation: expect_column_values_to_be_in_set | Coluna: payment_type | Registros inesperados: 9511
+- Expectation: expect_column_values_to_be_between | Coluna: trip_duration_seconds | Registros inesperados: 1
