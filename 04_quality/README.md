@@ -145,3 +145,41 @@ no arquivo:
 
 ```text
 great-expectations.md
+```
+## 4.7 Artefatos gerados e organização dos scripts
+
+Como resultado da validação automática da qualidade dos dados, foram gerados scripts e relatórios que documentam de forma reproduzível tanto a execução das regras quanto os resultados obtidos em diferentes fontes de dados.
+
+### Scripts de validação
+
+- **`data_quality_local.py`**  
+  Script responsável pela execução das regras de qualidade sobre o dataset carregado localmente a partir do arquivo CSV (`nyc_taxi_trips_2024_01.csv`).  
+  Este script simula um cenário de validação em ambiente local, permitindo inspeção rápida dos dados e verificação inicial das regras antes da integração com sistemas externos.
+
+- **`data_quality_postgresql.py`**  
+  Script responsável pela execução das mesmas regras de qualidade utilizando dados provenientes de uma base PostgreSQL em cloud (Supabase).  
+  A validação é realizada via API Validator do Great Expectations, garantindo que o mesmo conjunto de regras seja aplicado de forma consistente em um ambiente transacional real.
+
+Ambos os scripts compartilham o mesmo escopo de validação, assegurando comparabilidade entre os resultados obtidos em diferentes fontes de dados.
+
+### Relatórios de qualidade
+
+- **`data_quality_report.txt`**  
+  Relatório textual gerado automaticamente a partir da execução do script local.  
+  Contém o status geral da validação, o número total de regras avaliadas e o detalhamento das regras que apresentaram falhas, incluindo a quantidade de registros inesperados por regra.
+
+- **`data_quality_report_postgresql.txt`**  
+  Relatório textual equivalente, gerado a partir da validação dos dados extraídos do PostgreSQL.  
+  Este relatório permite verificar que as inconsistências observadas no ambiente local também se manifestam na base transacional, reforçando a importância das regras de qualidade definidas.
+
+### Observações finais
+
+A separação entre scripts de validação e relatórios de saída facilita:
+
+- a reprodutibilidade do processo;
+- a auditoria dos resultados;
+- a comparação entre diferentes ambientes (local vs. cloud);
+- a evolução futura das regras de qualidade sem impacto na documentação.
+
+Essa abordagem está alinhada às boas práticas de **governança de dados**, **observabilidade** e **Data Quality by Design**, pilares fundamentais para o uso confiável de dados em análises avançadas e modelos de IA.
+
