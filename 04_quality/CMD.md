@@ -34,7 +34,7 @@ A criação da tabela CDM foi realizada a partir de uma query SQL que aplica as 
 
 A query utilizada para essa criação está documentada no arquivo:
 
-- **`sql/create_nyc_taxi_trips_2024_01_cdm.sql`**
+- **`create_nyc_taxi_trips_2024_01_cdm.sql`**
 
 Essa abordagem garante rastreabilidade, rollback seguro e comparação direta entre as camadas RAW e CDM.
 
