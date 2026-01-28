@@ -121,3 +121,27 @@ Regra de consistência associada:
 Essas regras representam o contrato de qualidade dos dados e servem como base
 para a implementação das validações automáticas com Great Expectations nas
 próximas etapas do projeto.
+
+## 4.6 Validação automática de qualidade dos dados
+
+Para a validação das regras de qualidade definidas conceitualmente, foi utilizada
+a biblioteca **Great Expectations**, uma ferramenta open source amplamente adotada
+para observabilidade e governança de dados.
+
+O Great Expectations permite a definição declarativa de regras de qualidade
+(*expectations*), que expressam de forma explícita o que se espera de cada coluna
+do dataset, tais como:
+- presença de valores (completude)
+- faixas válidas
+- domínios permitidos
+- consistência entre colunas
+
+Essas regras são executadas automaticamente sobre o dataset, gerando um relatório
+de sucesso ou falha que pode ser utilizado para monitoramento contínuo da qualidade
+dos dados.
+
+As instruções de instalação do pacote e configuração do ambiente estão descritas
+no arquivo:
+
+```text
+great-expectations.md
