@@ -79,4 +79,45 @@ Airport_fee = 1.75
 Regra de consistência associada:
 - `tpep_dropoff_datetime ≥ tpep_pickup_datetime`
 
+### 📌 Passageiros e Distância
 
+| Coluna | Exemplo | Significado | Regras esperadas |
+|------|--------|------------|------------------|
+| passenger_count | 2.0 | Número de passageiros | ≥ 1, valor inteiro |
+| trip_distance | 17.14 | Distância percorrida | ≥ 0 |
+
+### 📌 Tarifação e Códigos
+
+| Coluna | Exemplo | Significado | Regras esperadas |
+|------|--------|------------|------------------|
+| RatecodeID | 2.0 | Código de tarifa | Dentro do domínio válido |
+| payment_type | 1 | Tipo de pagamento | ∈ {1,2,3,4,5,6} |
+| store_and_fwd_flag | N | Armazenamento offline | ∈ {'Y','N'} |
+
+### 📌 Localização
+
+| Coluna | Exemplo | Significado | Regras esperadas |
+|------|--------|------------|------------------|
+| PULocationID | 132 | Zona de embarque | Inteiro positivo |
+| DOLocationID | 233 | Zona de desembarque | Inteiro positivo |
+
+### 📌 Valores Monetários
+
+| Coluna | Exemplo | Significado | Regras esperadas |
+|------|--------|------------|------------------|
+| fare_amount | 70.0 | Tarifa base | ≥ 0 |
+| extra | 0.0 | Taxas extras | ≥ 0 |
+| mta_tax | 0.5 | Taxa MTA | ≥ 0 |
+| tip_amount | 8.27 | Gorjeta | ≥ 0 |
+| tolls_amount | 6.94 | Pedágios | ≥ 0 |
+| improvement_surcharge | 1.0 | Taxa de melhoria | ≥ 0 |
+| congestion_surcharge | 2.5 | Taxa de congestionamento | ≥ 0 |
+| Airport_fee | 1.75 | Taxa de aeroporto | ≥ 0 |
+| total_amount | 90.96 | Valor total da corrida | ≥ 0 e ≥ fare_amount |
+
+Regra de consistência associada:
+- `total_amount ≥ fare_amount`
+  
+Essas regras representam o contrato de qualidade dos dados e servem como base
+para a implementação das validações automáticas com Great Expectations nas
+próximas etapas do projeto.
