@@ -35,5 +35,3 @@ pip install --upgrade great-expectations
 # Compatibilidade com SQLAlchemy - (biblioteca Python para ORM e manipulação de bancos de dados) em uma versão anterior à 2.0.
 pip install "sqlalchemy<2.0"
 
-# Inicialização do Great Expectations. Cria uma estrutura de pastas e arquivos chamada great_expectations/ no seu projeto.
-great_expectations init 
