@@ -67,6 +67,16 @@ total_amount = 90.96
 congestion_surcharge = 2.5
 Airport_fee = 1.75
 
+## 4.5 Regras de qualidade por coluna
+### 📌 Identificação e Tempo
+
+| Coluna | Exemplo | Significado | Regras esperadas |
+|------|--------|------------|------------------|
+| VendorID | 2 | Identificador do fornecedor | Não nulo, inteiro positivo |
+| tpep_pickup_datetime | 2024-01-20 13:31:30 | Início da viagem | Não nulo, timestamp válido |
+| tpep_dropoff_datetime | 2024-01-20 14:03:25 | Fim da viagem | Não nulo, ≥ pickup |
+
+Regra de consistência associada:
+- tpep_dropoff_datetime ≥ tpep_pickup_datetime
 
 
-great_expectations init
