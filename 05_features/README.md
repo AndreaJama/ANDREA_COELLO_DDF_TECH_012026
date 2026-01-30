@@ -55,3 +55,66 @@ JSON format:
     "other_attributes": []
   }
 }
+## 5. Features Geradas
+
+A partir da inferência do LLM, as seguintes features estruturadas foram extraídas das descrições textuais dos produtos:
+
+| Coluna | Descrição |
+|------|---------|
+| product_id | Identificador do produto |
+| title | Título original do produto |
+| category | Categoria inferida pelo LLM |
+| material | Material principal identificado |
+| compatibility | Compatibilidade do produto |
+| key_features | Principais características |
+| functions | Funções do produto |
+| other_attributes | Atributos adicionais relevantes |
+| processing_timestamp | Timestamp do processamento |
+
+Essas colunas permitem análises categóricas, comparativas e temporais dos produtos.
+
+---
+
+## 6. Base Final Gerada
+
+- **Arquivo**: `products_features_item5.csv`
+- **Formato**: CSV
+- **Quantidade de registros**: 43
+- **Status**: Base estruturada e pronta para análise
+
+Esta base representa o **output final do Item 5**, sendo utilizada como insumo para a etapa de análise e visualização de dados.
+
+---
+
+## 7. Arquivos de Programação Utilizados
+
+Os seguintes arquivos foram utilizados na implementação deste item:
+
+- **`item5_feature_engineering_llm.ipynb`**  
+  Notebook executado no Google Colab contendo:
+  - leitura do dataset em streaming
+  - definição e validação do prompt
+  - execução do LLM local
+  - limpeza defensiva da saída em JSON
+  - flatten das features
+  - salvamento incremental da base final
+
+- **`products_features_item5.csv`**  
+  Base final estruturada gerada pelo pipeline.
+
+---
+
+## 8. Fluxo do Pipeline
+
+```mermaid
+flowchart TD
+    A[Dataset JSONL<br/>corpus-simple.jsonl] --> B[Leitura em streaming]
+    B --> C[Construção do prompt]
+    C --> D[LLM local<br/>Mistral 7B Instruct]
+    D --> E[Resposta em texto]
+    E --> F[Limpeza defensiva do JSON]
+    F --> G[Extração de features]
+    G --> H[Flatten dos atributos]
+    H --> I[Salvamento incremental<br/>CSV]
+    I --> J[Base estruturada<br/>products_features_item5.csv]
+
