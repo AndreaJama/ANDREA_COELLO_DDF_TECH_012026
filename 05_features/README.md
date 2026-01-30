@@ -55,6 +55,8 @@ JSON format:
     "other_attributes": []
   }
 }
+```
+
 ## 5. Features Geradas
 
 A partir da inferência do LLM, as seguintes features estruturadas foram extraídas das descrições textuais dos produtos:
