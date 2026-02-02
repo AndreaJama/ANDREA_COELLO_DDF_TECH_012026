@@ -100,6 +100,9 @@ Campos:
 - `payment_description`
 
 ---
+As dimensões de Tempo e Localização foram derivadas a partir dos dados transacionais existentes, sem perda de informação, garantindo escalabilidade, governança e reutilização dos dados.
+
+---
 
 ## 6.4 Visões Finais dos Dados
 
