@@ -14,27 +14,18 @@ O repositório está organizado seguindo o ciclo de vida dos dados proposto pela
 1. Integrar  
 2. Processar  
 3. Explorar  
-4. Analisar  
-5. ML / AI  
-6. IA Generativa  
-7. IAM  
-8. Data Apps  
-
-Cada diretório contém:
-- Explicação em Markdown
-- Links diretos para os ativos na plataforma Dadosfera
-- Prints evidenciando datasets, dashboards e aplicações
+4. Qualidade dos dados 
+5. Features  
+6. Modelagem 
+7. Dashboard 
 
 ## Tecnologias Utilizadas
 - SQL
 - Python
 - Google Colab
-- Streamlit
-- Git / Github
-- Cloud (Dadosfera SaaS)
-
-## Como Executar o Data App
-As instruções para execução local e deploy via Streamlit estão disponíveis em `08_data_apps/README.md`.
+- Github
+- Supabase - PostgreSQL
+- Mermaid
 
 ## Fluxograma do projeto
 - [Fluxograma do projeto](https://www.mermaid.ai/d/670b65ce-f0aa-427a-a215-3355169d0630)
