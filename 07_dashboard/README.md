@@ -4,6 +4,7 @@
 Nesta etapa, o objetivo foi gerar **valor analítico** a partir da base de dados de corridas de táxi de NYC (Janeiro/2024), combinando métricas operacionais, financeiras e temporais.  
 As análises foram construídas utilizando o módulo de **Visualização da Dadosfera**, com foco em responder perguntas de negócio de forma clara e interativa.
 
+![Visualização da Dadosfera](mod_vizualitation.png)
 ---
 
 ## Dataset Utilizado
