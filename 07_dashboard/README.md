@@ -110,6 +110,6 @@ O dashboard foi organizado em torno de **6 perguntas-chave**, todas conectadas a
 ### 📄 Queries SQL
 Todas as consultas SQL utilizadas para gerar as visualizações deste item estão documentadas no arquivo:
 
--- analise_dados_process.md
+-- `analise_dados_process.md`
 
 ![Exemplo de plot](p1_plot.png)
