@@ -113,3 +113,50 @@ Todas as consultas SQL utilizadas para gerar as visualizações deste item estã
 -- `analise_dados_process.md`
 
 ![Exemplo de plot](p1_plot.png)
+
+## Visualização Final – Dashboard Analítico
+
+Como resultado desta etapa, foi construído um **dashboard analítico interativo** no módulo de Visualização da Dadosfera, consolidando as principais métricas operacionais e financeiras das corridas de táxi de NYC (Janeiro/2024).
+
+O dashboard permite:
+- Análise temporal dinâmica via filtro de data
+- Visão integrada entre volume de corridas, receita, ticket médio, distância e duração
+- Exploração do comportamento de pagamento dos usuários
+
+### 📊 Visão Geral do Dashboard
+
+![Dashboard – Análise NYC Taxi](dashboard_nyc_taxi_01_2024.png)
+
+> **Observação:** a imagem acima representa a visão final do dashboard após a consolidação das 6 perguntas analíticas.
+
+---
+
+### 🔗 Acesso ao Dashboard
+O dashboard completo pode ser acessado pelo link abaixo:
+
+👉 **Link do Dashboard na Dadosfera:**  
+[http://metabase-treinamentos.dadosfera.ai/public/dashboard/80148c32-5f2d-47d6-8483-fb4f11bf52f5]
+
+---
+
+### Estrutura do Dashboard
+O dashboard final é composto por:
+
+- **P1:** Volume de Corridas por Dia  
+- **P2:** Evolução da Receita ao Longo do Tempo  
+- **P3:** Ticket Médio por Corrida  
+- **P4:** Distância Média das Corridas  
+- **P5:** Duração Média das Corridas  
+- **P6:** Distribuição por Tipo de Pagamento  
+
+Todos os gráficos estão conectados a um **filtro global de data**, garantindo consistência e análise comparável entre as visualizações.
+
+---
+
+### Considerações Finais
+Esta visualização consolida a etapa de **Análise de Dados**, demonstrando a capacidade de:
+- Transformar dados brutos em indicadores de negócio
+- Criar dashboards interativos orientados à tomada de decisão
+- Utilizar a plataforma Dadosfera como elo entre dados e valor analítico
+
+
