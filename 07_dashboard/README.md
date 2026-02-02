@@ -5,6 +5,9 @@ Nesta etapa, o objetivo foi gerar **valor analítico** a partir da base de dados
 As análises foram construídas utilizando o módulo de **Visualização da Dadosfera**, com foco em responder perguntas de negócio de forma clara e interativa.
 
 ![Visualização da Dadosfera](mod_vizualitation.png)
+
+![Coleção nova](criar_coleccao.png)
+
 ---
 
 ## Dataset Utilizado
@@ -13,11 +16,15 @@ As análises foram construídas utilizando o módulo de **Visualização da Dado
 - **Granularidade:** Corrida individual
 - **Filtro global aplicado:** Data de pickup (`TPEP_PICKUP_DATETIME`)
 
+![Tabela](chamando_tabela.png)
+
 ---
 
 ## Estrutura do Dashboard
 
 O dashboard foi organizado em torno de **6 perguntas-chave**, todas conectadas a um **filtro global de data**, permitindo análise dinâmica por intervalo temporal.
+
+![Edição Dashboard](dash.png)
 
 ### Perguntas Criadas
 
@@ -92,6 +99,10 @@ O dashboard foi organizado em torno de **6 perguntas-chave**, todas conectadas a
   - Aplicado a todas as perguntas do dashboard
 - O uso de um filtro único garante **consistência analítica** entre todas as visualizações.
 
+![Configurações de filtro](conf_filtro.png)
+
+![Conexão do filtro](connect_filtro.png)
+
 ---
 
 ## Arquivos do Projeto
@@ -99,3 +110,6 @@ O dashboard foi organizado em torno de **6 perguntas-chave**, todas conectadas a
 ### 📄 Queries SQL
 Todas as consultas SQL utilizadas para gerar as visualizações deste item estão documentadas no arquivo:
 
+-- analise_dados_process.md
+
+![Exemplo de plot](p1_plot.png)
