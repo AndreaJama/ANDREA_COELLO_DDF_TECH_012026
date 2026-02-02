@@ -41,10 +41,9 @@ flowchart TB
     D -. Risco de Escopo .-> B
     G -. Qualidade de Dados .-> F
     J -. Adoção do Usuário .-> K
+```
 
 
-## Fluxograma
-<img src="Fluxograma.png" alt="Fluxograma do Projeto" width="400"/>
 
 ## Pontos Críticos e Dependências
 - Qualidade dos dados na etapa de ingestão impacta todo o projeto
