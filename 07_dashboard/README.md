@@ -131,14 +131,6 @@ O dashboard permite:
 
 ---
 
-### 🔗 Acesso ao Dashboard
-O dashboard completo pode ser acessado pelo link abaixo:
-
-👉 **Link do Dashboard na Dadosfera:**  
-[http://metabase-treinamentos.dadosfera.ai/public/dashboard/80148c32-5f2d-47d6-8483-fb4f11bf52f5]
-
----
-
 ### Estrutura do Dashboard
 O dashboard final é composto por:
 
