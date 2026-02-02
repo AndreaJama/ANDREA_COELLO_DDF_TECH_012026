@@ -29,6 +29,7 @@ O repositório está organizado seguindo o ciclo de vida dos dados proposto pela
 
 ## Fluxograma do projeto
 
+```mermaid
 flowchart TB
     A["Iniciação do Projeto<br/>Kickoff com Stakeholders"] 
     --> B["Entendimento do Problema de Negócio<br/>Objetivos e KPIs"]
@@ -63,4 +64,4 @@ flowchart TB
     D -. Risco de Escopo .-> B
     G -. Qualidade de Dados .-> F
     J -. Adoção do Usuário .-> K
-
+```
