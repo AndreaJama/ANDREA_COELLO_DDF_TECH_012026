@@ -4,7 +4,6 @@ Nesta etapa, foi realizado o carregamento da base de dados proposta para a plata
 
 ## Fonte de Dados
 Base pública da NYC Taxi & Limousine Commission (TLC), contendo milhões de registros de viagens, reinterpretadas neste projeto como entregas logísticas no contexto de e-commerce.
-![catalogo](dataset_catalogo.png)
 
 ## Preparação do Arquivo para Ingestão
 
