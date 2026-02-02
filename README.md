@@ -6,6 +6,8 @@
 ## Objetivo
 Este projeto apresenta a implementação de uma Plataforma de Dados utilizando a Dadosfera, com foco em centralizar fontes de dados de um e-commerce para análises descritivas, prescritivas e uso de IA.
 
+https://youtu.be/rMn7QiPSl-0
+
 ## Contexto do Negócio
 O cliente é uma empresa de e-commerce com alto investimento em mídia paga, operação logística própria e necessidade de decisões baseadas em dados confiáveis e acessíveis.
 
