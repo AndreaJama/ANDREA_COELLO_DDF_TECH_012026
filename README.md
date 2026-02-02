@@ -28,4 +28,39 @@ O repositório está organizado seguindo o ciclo de vida dos dados proposto pela
 - Mermaid
 
 ## Fluxograma do projeto
-- [Fluxograma do projeto](https://www.mermaid.ai/d/670b65ce-f0aa-427a-a215-3355169d0630)
+
+flowchart TB
+    A["Iniciação do Projeto<br/>Kickoff com Stakeholders"] 
+    --> B["Entendimento do Problema de Negócio<br/>Objetivos e KPIs"]
+
+    B --> C["Levantamento de Dados<br/>Fontes, Volume e Estrutura"]
+
+    C --> D["Planejamento Analítico<br/>Escopo, Riscos e Prioridades"]
+
+    D --> E["Arquitetura de Dados<br/>Plataforma Dadosfera"]
+
+    E --> F["Ingestão e Integração de Dados<br/>Carga em Banco Analítico"]
+
+    F --> G["Qualidade e Tratamento de Dados<br/>Validações e Padronizações"]
+
+    G --> H["Modelagem Analítica<br/>Visões para Análise"]
+
+    H --> I["Exploração e Consulta de Dados<br/>SQL e Métricas"]
+
+    I --> J["Análise de Dados e Visualização<br/>Dashboards e Insights"]
+
+    J --> K["Validação com Stakeholders<br/>Feedback e Ajustes"]
+
+    K --> L["Entrega Final<br/>Dashboard, Documentação e Resultados"]
+
+    %% Camadas avançadas (opcionais)
+    J -.-> M["IA / LLMs<br/>Extração de Features Textuais"]
+    M -.-> J
+
+    J -.-> N["Data Apps<br/>Exploração Avançada"]
+    
+    %% Riscos e controles
+    D -. Risco de Escopo .-> B
+    G -. Qualidade de Dados .-> F
+    J -. Adoção do Usuário .-> K
+
