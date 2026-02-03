@@ -8,6 +8,9 @@ As análises foram construídas utilizando o módulo de **Visualização da Dado
 
 ![Coleção nova](criar_coleccao.png)
 
+[Coleção](https://metabase-treinamentos.dadosfera.ai/collection/1035-andrea-coello-022026)
+
+![Coleção](colecao.png)
 ---
 
 ## Dataset Utilizado
