@@ -92,7 +92,7 @@ Esta base representa o **output final do Item 5**, sendo utilizada como insumo p
 
 Os seguintes arquivos foram utilizados na implementação deste item:
 
-- **`item5_feature_engineering_llm.ipynb`**  
+- **`feature_engineering_llm.ipynb`**  
   Notebook executado no Google Colab contendo:
   - leitura do dataset em streaming
   - definição e validação do prompt
