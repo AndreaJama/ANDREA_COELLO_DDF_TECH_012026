@@ -95,6 +95,7 @@ Após a execução da pipeline:
 
 ![pipeline_at](pipeline_at.png)
 
+[Pipeline](https://app.dadosfera.ai/pt-BR/collect/pipelines/c053bd76-e050-4527-8bb7-15f6d735344f)
 ---
 
 ### 🔹 Considerações finais
