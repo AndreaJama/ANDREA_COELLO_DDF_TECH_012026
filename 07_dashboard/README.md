@@ -123,7 +123,7 @@ O dashboard permite:
 - Visão integrada entre volume de corridas, receita, ticket médio, distância e duração
 - Exploração do comportamento de pagamento dos usuários
 
-### 📊 Visão Geral do Dashboard
+### 📊 [Visão Geral do Dashboard](http://metabase-treinamentos.dadosfera.ai/public/dashboard/80148c32-5f2d-47d6-8483-fb4f11bf52f5)
 
 ![Dashboard – Análise NYC Taxi](dashboard_nyc_taxi_01_2024.png)
 
