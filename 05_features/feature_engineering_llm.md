@@ -1,3 +1,7 @@
+ ![Google Colab](features.png)
+
+https://colab.research.google.com/drive/1_b1UCy_r5JK5TqXyud1HtwU2xT7bUTHO?usp=sharing
+
 ```!pip install -q llama-cpp-python pandas tqdm
 
 import json
