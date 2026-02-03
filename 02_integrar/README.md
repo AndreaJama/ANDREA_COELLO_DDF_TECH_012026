@@ -56,6 +56,8 @@ Verifique o Status da extração do arquivo do seu dispositivo:
 
 Após a conclusão da importação, o dataset ficou disponível para visualização e consulta no **Catálogo de Dados** da Dadosfera.
 
+[Catálogo](https://app.dadosfera.ai/pt-BR/catalog/data-assets/34bfb383-60a8-4e70-af64-dc9d53f595f7)
+
 ### Microtransformação (Bônus)
 
 A Dadosfera adota o paradigma ELT, permitindo a aplicação de microtransformações no momento da ingestão de dados provenientes de fontes transacionais SQL.
