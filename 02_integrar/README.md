@@ -60,6 +60,8 @@ Após a conclusão da importação, o dataset ficou disponível para visualizaç
 
 ### Microtransformação (Bônus)
 
+- `Microtransformação.md`
+ 
 A Dadosfera adota o paradigma ELT, permitindo a aplicação de microtransformações no momento da ingestão de dados provenientes de fontes transacionais SQL.
 
 No contexto deste projeto, a microtransformação de criptografia (hash) seria aplicada sobre a coluna `VendorID`, com o objetivo de anonimizar identificadores sensíveis mantendo a consistência analítica dos dados.
