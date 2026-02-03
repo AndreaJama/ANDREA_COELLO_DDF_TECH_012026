@@ -1,4 +1,4 @@
-´´´!pip install -q llama-cpp-python pandas tqdm
+```!pip install -q llama-cpp-python pandas tqdm
 
 import json
 import os
@@ -110,5 +110,5 @@ if rows:
     )
     total_saved += len(rows)
     print(f"✅ Arquivo '{OUTPUT}' finalizado. Total de registros salvos: {total_saved}")
-´´´
+```
 
