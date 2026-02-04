@@ -6,3 +6,14 @@ Para o desenvolvimento do case, foi utilizada como base principal o conjunto de 
 Essa base foi reinterpretada no contexto de e-commerce como dados de entregas logísticas, permitindo análises operacionais, preditivas e uso de IA, alinhadas ao objetivo do projeto de construção de uma Plataforma de Dados.
 
 O volume de dados utilizado é superior a 100.000 registros, atendendo plenamente aos requisitos do case.
+
+## Adaptação ao cenário de e-commerce 
+Embora a base seja de transporte, ela será reinterpretada dentro do domínio de e-commerce, da seguinte forma:
+
+Base Taxi	Contexto E-commerce
+Trip	Entrega de pedido
+Pickup Location	Centro de distribuição
+Dropoff Location	Cliente
+Trip Distance	Distância logística
+Fare Amount	Custo logístico
+Trip Duration	Prazo de entrega
