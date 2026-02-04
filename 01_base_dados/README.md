@@ -15,7 +15,6 @@ Embora a base de dados seja originalmente do domínio de transporte, ela foi **r
 |------------------|---------------------------|
 | Trip             | Entrega de pedido         |
 | Pickup Location  | Centro de distribuição    |
-| Dropoff Location | Cliente                   |
 | Trip Distance    | Distância logística       |
 | Fare Amount      | Custo logístico           |
 | Trip Duration    | Prazo de entrega          |
