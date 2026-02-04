@@ -54,8 +54,3 @@ Obs: Os campos financeiros estão expressos em dólares americanos (USD), confor
 
 Essa etapa prepara o dataset para análises descritivas, visualizações e modelagens que serão realizadas nas fases seguintes do projeto.
 
-## Bônus – Catalogação via API
-
-A Dadosfera disponibiliza APIs para automação da catalogação de ativos, permitindo integração com pipelines e processos automatizados de governança.
-
-Neste projeto, a catalogação foi realizada via interface da plataforma. Em um cenário produtivo, essa etapa poderia ser automatizada via API para atualização de descrições, tags e metadados de forma programática.
