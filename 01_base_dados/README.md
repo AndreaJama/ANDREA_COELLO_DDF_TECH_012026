@@ -7,13 +7,15 @@ Essa base foi reinterpretada no contexto de e-commerce como dados de entregas lo
 
 O volume de dados utilizado é superior a 100.000 registros, atendendo plenamente aos requisitos do case.
 
-## Adaptação ao cenário de e-commerce 
-Embora a base seja de transporte, ela será reinterpretada dentro do domínio de e-commerce, da seguinte forma:
+### Adaptação ao cenário de e-commerce
 
-Base Taxi	Contexto E-commerce
-Trip	Entrega de pedido
-Pickup Location	Centro de distribuição
-Dropoff Location	Cliente
-Trip Distance	Distância logística
-Fare Amount	Custo logístico
-Trip Duration	Prazo de entrega
+Embora a base de dados seja originalmente do domínio de transporte, ela foi **reinterpretada dentro do contexto de e-commerce**, permitindo análises logísticas e operacionais equivalentes.
+
+| Base Taxi        | Contexto E-commerce        |
+|------------------|---------------------------|
+| Trip             | Entrega de pedido         |
+| Pickup Location  | Centro de distribuição    |
+| Dropoff Location | Cliente                   |
+| Trip Distance    | Distância logística       |
+| Fare Amount      | Custo logístico           |
+| Trip Duration    | Prazo de entrega          |
