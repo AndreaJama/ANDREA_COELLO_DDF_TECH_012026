@@ -58,21 +58,13 @@ Após a conclusão da importação, o dataset ficou disponível para visualizaç
 
 [Catálogo](https://app.dadosfera.ai/pt-BR/catalog/data-assets/34bfb383-60a8-4e70-af64-dc9d53f595f7)
 
-### Microtransformação (Bônus)
-
-- `Microtransformação.md`
+## ⭐ Bônus – Microtransformação com PostgreSQL (Supabase)
  
 A Dadosfera adota o paradigma ELT, permitindo a aplicação de microtransformações no momento da ingestão de dados provenientes de fontes transacionais SQL.
 
 No contexto deste projeto, a microtransformação de criptografia (hash) seria aplicada sobre a coluna `VendorID`, com o objetivo de anonimizar identificadores sensíveis mantendo a consistência analítica dos dados.
 
 Devido ao uso de importação manual de arquivos CSV (coleta única), a aplicação prática da microtransformação não foi executada na interface, sendo o conceito, a escolha da coluna e o impacto documentados conforme as boas práticas da plataforma.
-
-## ⭐ Bônus – Microtransformação com PostgreSQL (Supabase)
-
-Como parte do bônus do case técnico, foi implementada uma pipeline de ingestão de dados a partir de um **banco de dados PostgreSQL em ambiente cloud (Supabase)**, simulando uma **base transacional real**, utilizada como sistema de origem.
-
-O dataset utilizado contém registros de viagens da **NYC Taxi & Limousine Commission (TLC)** referentes a janeiro de 2024, previamente tratados e carregados no PostgreSQL para garantir consistência de tipos e formatos antes da ingestão.
 
 ---
 
