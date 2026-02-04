@@ -13,8 +13,8 @@ A seguinte tabela relaciona as zonas conceituais do Data Lake com as entregas pr
 | Zona | O que é | No contexto do case | Referência no repositório |
 |------|--------|-------------------|---------------------------|
 | **Landing / Raw** | Dados brutos, sem transformações | Arquivo CSV importado manualmente na Dadosfera | Item 2 – Integração (`02_integrar/`) |
-| **Standardized** | Padronização mínima de schema e metadados | Dataset catalogado com descrições e tags | Item 3 – Explorar (`03_explorar/`) |
-| **Curated** | Dados prontos para análise e consumo | Dataset explorado e validado para análises | Item 4 – Qualidade (`03_quality/`) |
+| **Standardized** | Padronização mínima de schema e metadados | Dataset catalogado com descrições e tags | Item 3 – Explorar e catalogar (`03_explorar/`) |
+| **Curated** | Dados prontos para análise e consumo | Dataset validado para análises | Item 4 – Qualidade (`03_quality/`) |
 
 ## Catalogação do Dataset
 
