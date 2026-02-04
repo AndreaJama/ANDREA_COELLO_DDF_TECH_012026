@@ -7,6 +7,10 @@ Essa base foi reinterpretada no contexto de e-commerce como dados de entregas lo
 
 O volume de dados utilizado é superior a 100.000 registros, atendendo plenamente aos requisitos do case.
 
+O script utilizado para acessar os dados, lendo diretamente os arquivos no formato Parquet, que é comum em ambientes analíticos e de cloud encontra-se em:
+- `scripts/download_data.py`
+
+
 ### Adaptação ao cenário de e-commerce
 
 Embora a base de dados seja originalmente do domínio de transporte, ela foi **reinterpretada dentro do contexto de e-commerce**, permitindo análises logísticas e operacionais equivalentes.
