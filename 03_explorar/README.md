@@ -6,7 +6,25 @@ Nesta etapa, o dataset foi explorado e catalogado na plataforma Dadosfera, segui
 
 Os dados foram inicialmente carregados em sua forma bruta (camada Landing/Raw) por meio da importação manual de arquivos. Após a ingestão, o dataset foi padronizado e disponibilizado no Catálogo de Dados (camada Standardized), ficando apto para exploração analítica e consumo por ferramentas de análise (camada Curated).
 
-<img src="zonas.png" alt="zonas" width="800"/>
+```mermaid
+flowchart TB
+    A["Importação Manual de Arquivos<br>(CSV - NYC Taxi Trips)"] --> B["**Landing Zone**<br>Dados Brutos"]
+    B --> C["**Standardized Zone**<br>Padronização de Schema<br>Catalogação"]
+    C --> D["**Curated Zone**<br>Dados Prontos para Análise"]
+    D --> E["Exploração Analítica<br>SQL • Preview • Métricas"]
+    E --> F["Consumo<br>Dashboards • Análises • IA"]
+
+     A:::Sky
+     B:::Ash
+     C:::Ash
+     D:::Ash
+     E:::Peach
+     F:::Pine
+    classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
+    classDef Ash stroke-width:1px, stroke-dasharray:none, stroke:#999999, fill:#EEEEEE, color:#000000
+    classDef Peach stroke-width:1px, stroke-dasharray:none, stroke:#FBB35A, fill:#FFEFDB, color:#8F632D
+    classDef Pine stroke-width:1px, stroke-dasharray:none, stroke:#254336, fill:#27654A, color:#FFFFFF
+```
 
 A seguinte tabela relaciona as zonas conceituais do Data Lake com as entregas práticas do projeto, permitindo rastreabilidade entre a arquitetura de dados proposta e os artefatos implementados no repositório GitHub.
 
