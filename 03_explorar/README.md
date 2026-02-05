@@ -8,7 +8,7 @@ Os dados foram inicialmente carregados em sua forma bruta (camada Landing/Raw) p
 
 ```mermaid
 flowchart TB
-    A["Importação Manual de Arquivos<br>(CSV - NYC Taxi Trips)"] --> B["**LandingZone**<br>Dados Brutos"]
+    A["Importação Manual de Arquivos<br>(CSV - NYC Taxi Trips)"] --> B["**Landing Zone**<br>Dados Brutos"]
     B --> C["**Standardized Zone**<br>Padronização de Schema<br>Catalogação"]
     C --> D["**Staging Zone**<br>Qualidade"]
     D --> E["Exploração Analítica<br>SQL • Preview • Métricas"]
@@ -32,7 +32,7 @@ A seguinte tabela relaciona as zonas conceituais do Data Lake com as entregas pr
 |------|--------|-------------------|---------------------------|
 | **Landing** | Dados brutos, sem transformações | Arquivo CSV importado manualmente na Dadosfera | Item 2 – Integração (`02_integrar/`) |
 | **Standardized** | Padronização mínima de schema e metadados | Dataset catalogado com descrições e tags | Item 3 – Explorar e catalogar (`03_explorar/`) |
-| **Staging** | Dados prontos para análise e consumo | Dataset validado para análises | Item 4 – Qualidade (`04_quality/`) |
+| **Staging** | Qualidade | Fase para garantir qualidade | Item 4 – Qualidade (`04_quality/`) |
 
 ## Catalogação do Dataset
 
