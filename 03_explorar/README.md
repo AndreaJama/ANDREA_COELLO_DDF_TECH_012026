@@ -10,7 +10,7 @@ Os dados foram inicialmente carregados em sua forma bruta (camada Landing/Raw) p
 flowchart TB
     A["Importação Manual de Arquivos<br>(CSV - NYC Taxi Trips)"] --> B["**LandingZone**<br>Dados Brutos"]
     B --> C["**Standardized Zone**<br>Padronização de Schema<br>Catalogação"]
-    C --> D["**Stag Zone**<br>Dados Prontos para Análise"]
+    C --> D["**Staging Zone**<br>Qualidade"]
     D --> E["Exploração Analítica<br>SQL • Preview • Métricas"]
     E --> F["Consumo<br>Dashboards • Análises • IA"]
 
